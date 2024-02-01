@@ -32,4 +32,3 @@ Great work on your portfolio! Below are some suggestions to improve the structur
 
 * You can add more projects in the /config/projects.ts
 * You can use Shadcn UI library i configured so you 
-* 

@@ -12,7 +12,7 @@ export default function ProjectCard({
     <Link href={`projects#${title.toLowerCase().replace(/ /g, "-")}`}>
       <section
         id={title.toLowerCase().replace(/ /g, "-")}
-        className="max-w-sm rounded overflow-hidden shadow-lg m-4"
+        className="max-w-sm rounded overflow-hidden shadow-lg my-4"
       >
         <Image
           width={1000}
@@ -21,7 +21,7 @@ export default function ProjectCard({
           src={imageUrl}
           alt="Project Image"
         />
-        <div className="px-6 py-4">
+        <div className="py-4">
           <div className="font-bold text-xl mb-2">{title}</div>
           <p className="text-gray-700 text-base">{description}</p>
         </div>
